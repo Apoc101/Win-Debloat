@@ -37,7 +37,7 @@ echo.
 echo Please select and option using number keys:
 echo. [1] Disable Cortana
 echo. [2] Disable Compatibility Telemetry
-echo. [3] Disable History Activity collection
+echo. [3] Disable Activity History collection
 echo. [4] Disable Location Services
 echo. [5] Excecute first 4 debloats
 echo.
