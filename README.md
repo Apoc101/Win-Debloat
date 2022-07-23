@@ -53,7 +53,7 @@ If you're uncomfortable with this, feel free to look within the [source code](ht
 
 #### Why can Compatibility Telemetry only be enabled partially?
 
-While deleting the Telemetry, some services that are in charge of delivering the Telemetry to Microsoft are deleted to ensure full privacy; this makes it so that fully re-enabling these services is virtually impossible without a fresh Windows install.
+While deleting the Telemetry, some services that are in charge of delivering it to Microsoft are deleted to ensure full privacy; this makes it so that fully re-enabling these services is virtually impossible without a fresh Windows install.
 
 #### Why is disabling Hybernation not recommended for Laptop users?
 
