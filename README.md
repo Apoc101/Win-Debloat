@@ -3,7 +3,7 @@
 
 Script to remove some telemetry and other data collection options in Windows 10/11, for privacy control or setting up a fresh Windows install.
 
-It's focus is being lightweight and non-overwhelming.
+Its focus is being lightweight and non-overwhelming.
 
 ## Features
 
