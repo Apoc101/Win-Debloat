@@ -57,7 +57,7 @@ While deleting the Telemetry, some services that are in charge of delivering it 
 
 #### Why is disabling Hybernation not recommended for Laptop users?
 
-Hybernation is critical to maintaining a laptop's battery charge by automatically "putting it to sleep" after a certain amount of time that it's inactive. Disabling this will drastically reduce the usable charge on a laptop.
+Hybernation is critical to maintain a laptop's battery charge by automatically "putting it to sleep" after a certain amount of time that it's inactive. Disabling this will drastically reduce the usable charge on a laptop.
 
 #### What do I do if I found a bug or have a question?
 
