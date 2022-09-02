@@ -13,14 +13,14 @@ Its focus is being lightweight and non-overwhelming.
 - Location services toggle
 - Storage Sense toggle
 - Enhance Pointer Precision toggle
-- Hybernation toggle
+- hibernation toggle
 
 
 ## Acknowledgements
 
  - Always make a [restore point](https://answers.microsoft.com/en-us/windows/forum/all/discussion-how-to-create-a-system-restore-point/91aada34-ae98-4007-a19b-15ce6edb41bd) before running software like this
  - I do *NOT* take responsibility for what could happen to your Windows install, run at your own risk!
- - I strongly recommend researching what each toggle/function does before using the script, although none will significantly impact your PC (except for hybernation on laptops)
+ - I strongly recommend researching what each toggle/function does before using the script, although none will significantly impact your PC (except for hibernation on laptops)
 
 
 ## How to run
@@ -55,9 +55,9 @@ If you're uncomfortable with this, feel free to look within the [source code](ht
 
 While deleting the Telemetry, some services that are in charge of delivering it to Microsoft are deleted to ensure full privacy; this makes it so that fully re-enabling these services is virtually impossible without a fresh Windows install.
 
-#### Why is disabling Hybernation not recommended for Laptop users?
+#### Why is disabling hibernation not recommended for Laptop users?
 
-Hybernation is critical to maintain a laptop's battery charge by automatically "putting it to sleep" after a certain amount of time that it's inactive. Disabling this will drastically reduce the usable charge on a laptop.
+Hibernation is critical to maintain a laptop's battery charge by automatically "putting it to sleep" after a certain amount of time that it's inactive. Disabling this will drastically reduce the usable charge on a laptop.
 
 #### What do I do if I found a bug or have a question?
 

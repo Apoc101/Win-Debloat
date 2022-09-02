@@ -43,9 +43,9 @@ echo. [5] Excecute first 4 debloats
 echo.
 echo. [6] Disable Storage Sense
 echo. [7] Disable Enhanced Pointer Precision
-echo. [8] Disable Hybernation (not recommended for laptops)
+echo. [8] Disable hibernation (not recommended for laptops)
 echo.
-echo. [9] Excecute all debloats, except Hybernation
+echo. [9] Excecute all debloats, except hibernation
 echo. [0] Go to Enable menu
 choice /C 1234567890 /N
 if %errorlevel%==1 goto disable-cortana
@@ -55,7 +55,7 @@ if %errorlevel%==4 goto disable-location
 if %errorlevel%==5 goto debloat-1-4
 if %errorlevel%==6 goto disable-ss
 if %errorlevel%==7 goto disable-ep
-if %errorlevel%==8 goto disable-hybernation
+if %errorlevel%==8 goto disable-hibernation
 if %errorlevel%==9 goto debloat-all
 if %errorlevel%==0 goto en-menu
 
@@ -74,9 +74,9 @@ echo. [5] Enable first 4 settings
 echo.
 echo. [6] Enable Storage Sense
 echo. [7] Enable Enhanced Pointer Precision
-echo. [8] Enable Hybernation
+echo. [8] Enable hibernation
 echo.
-echo. [9] Enable all, except Hybernation
+echo. [9] Enable all, except hibernation
 echo. [0] Go to Disable menu
 choice /C 1234567890 /N
 if %errorlevel%==1 goto enable-cortana
@@ -86,7 +86,7 @@ if %errorlevel%==4 goto enable-location
 if %errorlevel%==5 goto enable-1-4
 if %errorlevel%==6 goto enable-ss
 if %errorlevel%==7 goto enable-ep
-if %errorlevel%==8 goto enable-hybernation
+if %errorlevel%==8 goto enable-hibernation
 if %errorlevel%==9 goto enable-all
 if %errorlevel%==0 goto dis-menu
 goto dis-menu
@@ -178,10 +178,10 @@ cls
 goto dis-menu
 
 
-:disable-hybernation
+:disable-hibernation
 echo.
 powercfg.exe /hibernate off
-echo Hybernation disabled.
+echo hibernation disabled.
 echo.
 pause > nul | set /p "=Press any key to continue: "
 cls
@@ -298,10 +298,10 @@ cls
 goto en-menu
 
 
-:enable-hybernation
+:enable-hibernation
 echo.
 powercfg.exe /hibernate on
-echo Hybernation enabled.
+echo hibernation enabled.
 echo.
 pause > nul | set /p "=Press any key to continue: "
 cls
