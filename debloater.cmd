@@ -34,7 +34,7 @@ echo.
 :dis-menu
 cls
 echo.
-echo Please select and option using number keys:
+echo Please select an option using the number keys:
 echo. [1] Disable Cortana
 echo. [2] Disable Compatibility Telemetry
 echo. [3] Disable Activity History collection
@@ -65,7 +65,7 @@ if %errorlevel%==0 goto en-menu
 
 cls
 echo.
-echo Please select and option using number keys:
+echo Please select an option the using number keys:
 echo. [1] Enable Cortana
 echo. [2] Enable Compatibility Telemetry (partially)
 echo. [3] Enable History Activity collection
